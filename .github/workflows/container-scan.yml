@@ -21,7 +21,7 @@ jobs:
           accuknox_endpoint: ${{ secrets.ACCUKNOX_ENDPOINT }}
           accuknox_label: ${{ secrets.ACCUKNOX_LABEL }}
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
-          image: "ghcr.io/fortress-sri/app-images/satapp"
+          image_name: "ghcr.io/fortress-sri/app-images/satapp"
           tag: "latest"             # optional
           severity: "LOW, MEDIUM, HIGH, CRITICAL, UNKNOWN"
           
