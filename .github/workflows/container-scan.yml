@@ -23,7 +23,7 @@ jobs:
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
           image_name: "ghcr.io/fortress-sri/app-images/satapp"
           tag: "latest"             # optional
-          severity: "LOW, MEDIUM, HIGH, CRITICAL, UNKNOWN"
+          severity: "LOW, MEDIUM, HIGH, CRITICAL"
           
   #    - name: Run a multi-line script
   #     run: |
